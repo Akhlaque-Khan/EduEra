@@ -79,7 +79,7 @@
 <div class="form">
     <form action="SignUpHelp.php" method="POST">
     <div>
-
+         <h2 style="color:red">Email I'd Already Exist</h2>
         <input type="text" name="name" placeholder="Enter Your Full Name" class="input" required><br>
         <input type="text" name="fname" placeholder="Enter Your Father's Name" class="input"required><br>
         <input type="email" name="email" placeholder="Enter Your Email"class="input" required><br>

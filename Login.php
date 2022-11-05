@@ -10,18 +10,15 @@
 
 </head>
 <body><div class="container">
-   <form action="HomePage.php" class="container">
+   <form action="LoginHelp.php" class="container" method="POST">
    <center> <h2>Login Page</h2>
-  UserName <input type="text" class="input" placeholder="UserName"><br>
-  Password <input type="password" class="input" placeholder="Password"><br>
+  UserName <input type="text" class="input" placeholder="UserName" name="email" required><br>
+  Password <input type="password" class="input" placeholder="Password" name="Phone" required><br>
   <input type="checkbox" name="" id="">Remember me
   <br>
   <button type="submit" class="submit">Submit</button><span style="font-size:45px;color:black;">Or</span>
   <button type="reset" class="submit">Reset</button>
-
-
-</center>
-       
+</center>      
    </form>
 </div>
 </body>
